@@ -1,0 +1,12 @@
+.nav {
+    background: orangered;
+}
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+/* Global class */
+.nav :global(.active) {
+    background-color: green;
+}
